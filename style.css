@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+#header{
+  height: 100vh;
+  background-image: linear-gradient( to right bottom , rgba(22,29,111,0.5) ,rgba(33,32,156,0.5) ) , url("https://images.pexels.com/photos/572897/pexels-photo-572897.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 10%;
+  color: white;
+
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+}
+.header-main{
+  text-transform: uppercase;
+  letter-spacing: 2rem;
+  padding: 1.5rem;
+  font-weight: bolder;
+  animation-name:  boom ;
+  animation-duration: 3s;
+  backface-visibility: hidden;
+  font-size: 5rem;
+}
+@keyframes boom {
+  0%{
+  		 opacity: 0;
+  		 transform: translateX(-100px);
+  	}
+  80% {
+  		 transform: translateX(10px);
+  	}
+  100% {
+  		 opacity: 1;
+  		 transform: translate(0);
+  	}
+
+}
+#header p{
+
+  animation-name: rishita;
+  animation-duration: 3s;
+  backface-visibility: hidden;
+  font-size: 3rem;
+
+}
+@keyframes rishita {
+  0%{
+  		 opacity: 0;
+  		 transform: translateX(+100px);
+  	}
+  80% {
+  		 transform: translateX(-10px);
+  	}
+  100% {
+  		 opacity: 1;
+  		 transform: translate(0);
+  	}
+
+}
