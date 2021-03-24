@@ -63,3 +63,50 @@ body{
   	}
 
 }
+#About {
+  padding: 7% 14%;
+  text-align: center;
+  background: #4a47a3;
+  color: white;
+}
+.about-img {
+
+  width: 30%;
+  padding: 3%;
+  border-radius: 50%;
+
+}
+#Skills {
+  padding: 0.5% 14%;
+  background: #ccf2f4;
+  text-align: center;
+
+}
+#Skills li{
+  list-style: none;
+
+}
+table{
+  margin-left: auto;
+  margin-right: auto;
+
+}
+tr{
+  text-align: center;
+}
+th{
+  padding: 1.5rem 5rem ;
+}
+footer{
+  text-align: center;
+  background: #007580;
+  color: white;
+}
+/* #Skills li:nth-child(2){
+  float: left;
+
+
+}
+#Skills li:nth-child(1){
+  float: right;
+} */
